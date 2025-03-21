@@ -27,7 +27,7 @@ First, connect to the GnoSQL database using the GRPC URI and the desired databas
 var DatabaseName = "test-g-c"
 
 // Connect to the GnoSQL database
-db := Connect(GRPC_URI, DatabaseName, true)
+db := gque_client.Connect(GRPC_URI, DatabaseName, true)
 ```
 
 ### 2. Create a Collection
